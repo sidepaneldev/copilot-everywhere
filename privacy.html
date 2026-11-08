@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · CoPilot EveryWhere - SidePanel</title>
+<meta name="description" content="Privacy policy for the CoPilot EveryWhere - SidePanel Chrome extension.">
+<link rel="canonical" href="https://sidepaneldev.github.io/copilot-everywhere/privacy.html">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<style>
+:root { --bg: #f6f7fb; --surface: #fff; --line: #e2e6ee; --ink: #0f172a; --muted: #5b6475; --accent: #2563eb; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0b0c11; --surface: #15161c; --line: #2a2c35; --ink: #eceef5; --muted: #a0a6b4; --accent: #6b9bff; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { width: min(760px, 100% - 40px); margin: 0 auto; }
+header { border-bottom: 1px solid var(--line); background: var(--surface); }
+header .wrap { display: flex; align-items: center; gap: 10px; height: 64px; }
+header a { display: flex; align-items: center; gap: 10px; font-weight: 800; text-decoration: none; color: inherit; }
+header img { width: 28px; height: 28px; }
+main { padding: 50px 0 70px; }
+h1 { font-size: 38px; line-height: 1.15; letter-spacing: -.02em; margin: 0 0 6px; }
+.date { color: var(--muted); margin: 0 0 30px; }
+h2 { font-size: 21px; margin: 34px 0 8px; }
+p, li { color: var(--ink); }
+.muted { color: var(--muted); }
+.box { padding: 18px 22px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
+a { color: var(--accent); }
+code { font: 14px ui-monospace, Menlo, monospace; padding: 1px 6px; border-radius: 5px; background: var(--surface); border: 1px solid var(--line); }
+footer { border-top: 1px solid var(--line); padding: 26px 0 40px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><a href="index.html"><img src="assets/logo.png" alt="">CoPilot EveryWhere</a></div></header>
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="date">Last updated: November 7, 2026</p>
+
+  <div class="box"><strong>In short:</strong> CoPilot EveryWhere - SidePanel does not collect, store, sell or share your personal data or browsing activity. Your conversations go directly to Copilot.</div>
+
+  <h2>What the extension does</h2>
+  <p>CoPilot EveryWhere - SidePanel ("the extension") opens the Copilot website in Chrome's side panel or in a popup. It is an independent product and is not affiliated with Microsoft.</p>
+
+  <h2>Data we do not collect</h2>
+  <ul>
+    <li>We do not read, collect or transmit the content of the web pages you visit.</li>
+    <li>We do not collect your browsing history.</li>
+    <li>We do not see, store or process your Copilot conversations.</li>
+    <li>We do not use analytics, advertising or tracking services.</li>
+  </ul>
+
+  <h2>Data stored on your device</h2>
+  <p>The extension saves your preferences (language, theme, open mode) and the date it was installed using Chrome's storage. This data stays in your Chrome profile and may sync across your own devices through your Chrome account. It is never sent to us.</p>
+
+  <h2>Copilot and Microsoft</h2>
+  <p>When you use Copilot in the panel, you interact directly with the Copilot website (copilot.com / copilot.microsoft.com). Your messages, voice input and sign-in are handled by Microsoft under Microsoft's own privacy statement. Sign-in pages open in a normal browser tab.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><code>sidePanel</code>: shows Copilot in Chrome's side panel.</li>
+    <li><code>storage</code>: saves your settings on your device.</li>
+    <li><code>contextMenus</code>: adds shortcuts to the toolbar icon's right-click menu.</li>
+    <li><code>declarativeNetRequest</code>: lets copilot.com load inside the extension's own panel and popup. Normal tabs are not affected.</li>
+    <li><code>scripting</code>: after you allow access, adds a small script to Copilot pages that opens sign-in in a normal tab.</li>
+    <li>Access to <code>copilot.com</code>, <code>copilot.microsoft.com</code> and <code>bing.com</code>: requested only when you click "Allow" in the panel, to display Copilot.</li>
+    <li>Microphone: used only by Copilot for voice input, after you grant it.</li>
+  </ul>
+
+  <h2>Uninstall survey</h2>
+  <p>When you remove the extension, Chrome opens an optional Google Form. It is pre-filled with non-personal technical details: the extension's language and version, your browser language, operating system, Chrome version, open mode and the number of days it was installed. Nothing is sent unless you submit the form yourself. Google's privacy policy applies to Google Forms.</p>
+
+  <h2>Children</h2>
+  <p>The extension is not directed at children under 13 and does not knowingly collect any data from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p class="muted">Questions? Open an issue on <a href="https://github.com/sidepaneldev/copilot-everywhere/issues">GitHub</a> or use the support link on the Chrome Web Store listing.</p>
+</main>
+<footer><div class="wrap">© 2026 SidePanel developer. All rights reserved. "Microsoft" and "Copilot" are trademarks of their respective owners.</div></footer>
+</body>
+</html>
